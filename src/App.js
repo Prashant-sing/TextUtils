@@ -8,8 +8,7 @@ import Alert from './Components/Alert';
 import{
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 function App() {
   const [mode, setmode] = useState('light') //Whether DarkMode is 
